@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+}
+
+input[type="file"] {
+  margin: 20px 0;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #ff6b6b;
+}
+
+img {
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.thumbnail {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: contain;
+  margin: 10px 0;
+  border: 2px solid #61dafb;
+  border-radius: 4px;
+}
+
+.comparison {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.original, .compressed {
+  text-align: center;
+}
+
+.thumbnail {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.video-comparison {
+  margin-top: 20px;
+}
+
+.compressed-video {
+  max-width: 100%;
+  max-height: 400px;
+}
+
+.size-comparison {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.thumbnail-container {
+  margin-top: 20px;
+}
+
+.comparison {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.original, .compressed {
+  text-align: center;
+}
+
+.video-comparison {
+  margin-top: 20px;
+}
+
+.compressed-video {
+  max-width: 100%;
+  max-height: 400px;
+}
+
+.size-comparison {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.thumbnail {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.estimation {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #373d49;
+  border-radius: 5px;
+}
+
+.estimation h3 {
+  margin-top: 0;
+}
+
+.loading {
+  margin-top: 10px;
+  font-style: italic;
+  color: #888;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

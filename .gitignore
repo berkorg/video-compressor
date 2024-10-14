@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+uploads/
+compressed/
+venv/
+/video-compressor-env/*
+/video-compressor-env/
+.env
+.DS_Store
